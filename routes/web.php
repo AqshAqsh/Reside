@@ -16,10 +16,30 @@ use App\Http\Controllers\registrationcontroller;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/about','App\Http\Controllers\mycontroller@about1' );
+
+Route::get('/facilities', function () {
+    return view('facilities');
+});
+Route::get('/rooms', function () {
+    return view('rooms');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+
+//Route::get('/about','App\Http\Controllers\mycontroller@about1' );
 
 Route::get('/register',[registrationcontroller::class, 'index']);
 Route::post('/register', [registrationcontroller::class, 'register']);
