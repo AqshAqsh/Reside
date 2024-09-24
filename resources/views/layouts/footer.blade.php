@@ -8,11 +8,11 @@
         </div>
         <div class="col-lg-4 col-md-4 p-4 text-center">
             <h5 class="mb-3 fw-bold">Links</h5>
-            <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
-            <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
-            <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">facilities</a><br>
-            <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact</a><br>
-            <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About</a><br>
+            <a href="{{url('/')}}" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
+            <a href="{{url('/rooms')}}" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+            <a href="{{url('/facilities')}}" class="d-inline-block mb-2 text-dark text-decoration-none">facilities</a><br>
+            <a href="{{url('/contact')}}" class="d-inline-block mb-2 text-dark text-decoration-none">Contact</a><br>
+            <a href="{{url('/about')}}" class="d-inline-block mb-2 text-dark text-decoration-none">About</a><br>
 
         </div>
         <div class="col-lg-4 col-md-4 p-4 text-center">
@@ -35,6 +35,6 @@
  </div>
 
 
- <h6 class="text-center bg-dark text-white p-4 m-0 fw-bold fs-5">Good Luck Reside Me Project </h6>
+ <h6 class="text-center bg-dark text-white p-3 m-0 fw-bold fs-5">Good Luck Reside Me Project </h6>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
