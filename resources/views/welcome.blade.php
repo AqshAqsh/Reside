@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,22 +30,22 @@
     <div class="swiper Swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/a.png" class="w-100 d-block" />
+                <img src="carousel/1.png" class="w-100 d-block" />
             </div>
             <div class="swiper-slide">
-                <img src="images/b.png" class="w-100 d-block" />
+                <img src="carousel/2.png" class="w-100 d-block" />
             </div>
             <div class="swiper-slide">
-                <img src="images/c.png" class="w-100 d-block" />
+                <img src="carousel/3.png" class="w-100 d-block" />
             </div>
             <div class="swiper-slide">
-                <img src="images/d.png" class="w-100 d-block" />
+                <img src="carousel/4.png" class="w-100 d-block" />
             </div>
             <div class="swiper-slide">
-                <img src="images/e.png" class="w-100 d-block" />
+                <img src="carousel/5.png" class="w-100 d-block" />
             </div>
             <div class="swiper-slide">
-                <img src="images/f.png" class="w-100 d-block" />
+                <img src="carousel/6.png" class="w-100 d-block" />
             </div>
         </div>
     </div>
@@ -64,8 +65,8 @@
                                 <label class="form-label " style="font-weight: 500;">Check-out</label>
                                 <input type="date" class="form-control shadow-none">
                             </div>
-                            <div class="col-lg-4 mb-3">
-                                <label class="form-label " style="font-weight: 500;">Members</label>
+                            <div class="col-lg-3 mb-3">
+                                <label class="form-label " style="font-weight: 500;">Adult</label>
                                 <select class="form-select shadow-none">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
@@ -73,8 +74,16 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-
-                            <div class="col-lg-2 mb-lg-3 mt-2">
+                            <div class="col-lg-2 mb-3">
+                                <label class="form-label" style="font-weight: 500;">Child</label>
+                                <select class="form-select shadow-none">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-1 mb-lg-3 mt-2">
                                 <button type="submit" class="btn text-white shadow-none custom-bg">submit</button>
                             </div>
                         </div>
@@ -89,7 +98,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 my-3">
                     <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-                        <img src="images/a.png" class="card-img-top" >
+                        <img src="carousel/1.png" class="card-img-top" >
 
                         <div class="card-body">
                             <h5> simple room</h5>
@@ -144,7 +153,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 my-3">
                     <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-                        <img src="images/a.png" class="card-img-top" >
+                        <img src="carousel/1.png" class="card-img-top" >
 
                         <div class="card-body">
                             <h5> simple room</h5>
@@ -199,7 +208,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 my-3">
                     <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-                        <img src="images/a.png" class="card-img-top" >
+                        <img src="carousel/1.png" class="card-img-top" >
 
                         <div class="card-body">
                             <h5> simple room</h5>
@@ -264,23 +273,23 @@
         <div class="container">
             <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
                 <div class="col-lg-2 col-md-2 bg-white rounded shadow py-4 my3 text-center">
-                    <img src="images/wifi.svg" width="80px">
+                    <img src="features/wifi.svg" width="80px">
                     <h5 class="mt-3"> wifi</h5>
                 </div>
                 <div class="col-lg-2 col-md-2 bg-white rounded shadow py-4 my3 text-center">
-                   <img src="images/wifi.svg" width="80px">
+                   <img src="features/wifi.svg" width="80px">
                     <h5 class="mt-3"> wifi</h5>
                 </div>
                 <div class="col-lg-2 col-md-2 bg-white rounded shadow py-4 my3 text-center">
-                    <img src="images/wifi.svg" width="80px">
+                    <img src="features/wifi.svg" width="80px">
                     <h5 class="mt-3"> wifi</h5>
                 </div>
                 <div class="col-lg-2 col-md-2 bg-white rounded shadow py-4 my3 text-center">
-                    <img src="images/wifi.svg" width="80px">
+                    <img src="features/wifi.svg" width="80px">
                     <h5 class="mt-3"> wifi</h5>
                 </div>
                 <div class="col-lg-2 col-md-2 bg-white rounded shadow py-4 my3 text-center">
-                    <img src="images/wifi.svg" width="80px">
+                    <img src="features/wifi.svg" width="80px">
                     <h5 class="mt-3"> wifi</h5>
                 </div>
                 <div class="col-lg-12 text-center mt-5">
@@ -299,7 +308,7 @@
 
                     <div class="swiper-slide bg-white p-4">
                         <div class="profile d-flex align-items-center mb-3">
-                            <img src="images/wifi.svg" width="30px">
+                            <img src="features/wifi.svg" width="30px">
                             <h6 class="m-0 ms-0">Random userl</h6>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, odit voluptate dolor, atque amet non totam officiis repellat facere ea corrupti inventore sit, esse nulla porro quam voluptates ullam necessitatibus?</p>
@@ -313,7 +322,7 @@
                     </div>
                     <div class="swiper-slide bg-white p-4">
                         <div class="profile d-flex align-items-center mb-3">
-                            <img src="images/wifi.svg" width="30px">
+                            <img src="features/wifi.svg" width="30px">
                             <h6 class="m-0 ms-0">Random userl</h6>
                         </div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam veritatis at voluptate eveniet, fugit doloribus nesciunt placeat neque, molestiae, quae dolores enim veniam! Incidunt repellat tempora beatae, error voluptatum unde.</p>
@@ -327,7 +336,7 @@
                     </div>
                     <div class="swiper-slide bg-white p-4">
                         <div class="profile d-flex align-items-center mb-3">
-                            <img src="images/wifi.svg" width="30px">
+                            <img src="features/wifi.svg" width="30px">
                             <h6 class="m-0 ms-0">Random userl</h6>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nihil id sunt accusantium possimus, blanditiis voluptatibus excepturi incidunt eum? Repellat enim qui iste dicta architecto, quo cupiditate cum! Sequi, voluptatibus.</p>

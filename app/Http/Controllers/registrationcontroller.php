@@ -6,8 +6,6 @@ use Illuminate\Auth\Events\Validated;
 use Illuminate\Http\Request;
 use Symfony\Contracts\Service\Attribute\Required;
 
-
-
 class registrationcontroller extends Controller
 {
     public function index()
@@ -21,10 +19,10 @@ class registrationcontroller extends Controller
                 'name'=>'Required',
                 'email'=>'Required|email',
                 'password'=>'Required|confirmed' ,
-               // 'password_confirmation'=>'Required' ,
+                'password_confirmation'=>'Required' ,
             ]
         ); 
-        
-
+        echo "<pre>"; 
+        print_r($request->all()); 
     }
 }

@@ -3,18 +3,8 @@
     --teal-hover: #279e8c;
 }
 
-.custom-bg {
-    background-color: var(--teal) !important;
-    border: 1px solid var(--teal) !important;
-}
-.custom-bg:hover {
-    background-color: var(--teal-hover) !important;
-    border-color: var(--teal-hover) !important;
-}
-
-
 *{
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Popppins' , sans-serif;
 }
 .h-font{
     font-family: 'Merienda', cursive;
@@ -29,10 +19,19 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-
+.custom-bg{
+    background-color: var(--teal);
+    border:1px solid var(--teal);
+    
+}
+.custom-bg:hover{
+    background-color: var(--teal-hover);
+    border-color: var(--teal-hover)
+}
 
 .h-line{
     width: 150px; 
     margin: 0 auto;
     height: 1.7px;
+
 }
