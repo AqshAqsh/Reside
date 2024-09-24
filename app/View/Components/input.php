@@ -9,16 +9,18 @@ class input extends Component
     public $type;
     public $label;
     public $name;
+    //public $placeholder;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct( $type, $label, $name)
+    public function __construct( $type, $label, $name )
     {
         $this->type = $type; 
         $this->label = $label;
-        $this->name = $name; 
+        $this->name = $name;
+       // $this->placeholder = $placeholder; 
     }
 
     /**
